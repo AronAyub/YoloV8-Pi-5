@@ -27,5 +27,30 @@ sudo apt-get install libopencv-dev
 $ sudo apt-get install python3-opencv
 ```
 
+## Install ultralytics.
+- [Visit the site below for ultralytics][def2]
+- Whenever you deploy ultralytics you will get errors because:
+    - There are specific requirements for torch and torchvision for the ultralytics to work.
+    - The temporary solution below worked for me:
+    
+    * Please run the command below:
+
+
+### Install ultralytics 
+```
+pip install ultralytics
+```
+
+## Test Ultralytics
+
+
+ - Download these files from the official Ultralytics website. We shall use them for the testing.()
+
+ <img width="512" alt="image" src="https://github.com/AronAyub/Jetson-Nano-OBject-Detection---Yolo-V8/assets/55284959/bc78ab30-c80c-4c68-9e64-7987f868b81c">
+
+
+
+
 
 [def]: https://www.raspberrypi.com/software/operating-systems/
+[def2]: https://github.com/ultralytics/ultralytics
