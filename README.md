@@ -35,6 +35,15 @@ $ sudo apt-get install python3-opencv
     
     * Please run the command below:
 
+#### Method 1
+
+```
+pip uninstall torch torchvision
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.
+```
+#### Temporary Solution that works as well.
+ 
+ 
 
 ### Install ultralytics 
 ```
