@@ -27,6 +27,37 @@ sudo apt-get install libopencv-dev
 $ sudo apt-get install python3-opencv
 ```
 
+## Create a Memory Swap
+- Stop the SWAP
+```
+sudo dphys-swapfile swapoff
+```
+- Modify the SWAP size
+```
+sudo nano /etc/dphys-swapfile
+```
+- Create and initialize the file 
+```
+sudo nano /etc/dphys-swapfile
+```
+- Edit the line in MBs
+
+```
+CONF_SWAPSIZE=2048
+```
+-  Create and initialize the file
+
+```
+sudo dphys-swapfile setup
+```
+- Start the SWAP
+```
+sudo dphys-swapfile swapon
+```
+
+
+
+
 ## Install ultralytics.
 - [Visit the site below for ultralytics][def2]
 - Whenever you deploy ultralytics you will get errors because:
