@@ -28,6 +28,9 @@ $ sudo apt-get install python3-opencv
 ```
 
 ## Create a Memory Swap
+
+SWAP memory is parts of memory from the RAM (Random Access Memory) that enables an operating system to provide more memory to a running application or process than is available in physical random access memory (RAM). So if the physical memory (RAM) is full, we can use SWAP partition for extra memory resources. It is useful if we have low memory on our machine.
+
 - Stop the SWAP
 ```
 sudo dphys-swapfile swapoff
@@ -54,8 +57,6 @@ sudo dphys-swapfile setup
 ```
 sudo dphys-swapfile swapon
 ```
-
-
 
 
 ## Install ultralytics.
