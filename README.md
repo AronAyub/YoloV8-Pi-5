@@ -61,6 +61,7 @@ sudo dphys-swapfile swapon
 
 ## Install ultralytics.
 - [Visit the site below for ultralytics][def2]
+- Whenever you deploy ultralytics you will get errors because
 - [Official Site](def4)
 - Whenever you deploy ultralytics you will get errors because:
     - There are specific requirements for torch and torchvision for the ultralytics to work.
