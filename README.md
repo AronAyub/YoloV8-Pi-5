@@ -61,6 +61,7 @@ sudo dphys-swapfile swapon
 
 ## Install ultralytics.
 - [Visit the site below for ultralytics][def2]
+- [Official Site](def4)
 - Whenever you deploy ultralytics you will get errors because:
     - There are specific requirements for torch and torchvision for the ultralytics to work.
     - The temporary solution below worked for me:
@@ -103,3 +104,4 @@ Speed: 8.4ms preprocess, 2782.8ms inference, 2.3ms postprocess per image at shap
 
 [def]: https://www.raspberrypi.com/software/operating-systems/
 [def2]: https://github.com/ultralytics/ultralytics
+[def4]: https://github.com/ultralytics/ultralytics/tree/main/examples
