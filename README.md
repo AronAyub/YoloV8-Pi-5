@@ -90,6 +90,14 @@ pip install ultralytics
  <img width="512" alt="image" src="https://github.com/AronAyub/Jetson-Nano-OBject-Detection---Yolo-V8/assets/55284959/bc78ab30-c80c-4c68-9e64-7987f868b81c">
 
 
+## Testing the model
+
+See the results i got:
+
+```
+image 1/1 /home/pi/Desktop/objectdetection/image test2.png: 448x640 12 persons, 1 bicycle, 12 cars, 1 bus, 1 truck, 10 traffic lights, 1 handbag, 2782.8ms
+Speed: 8.4ms preprocess, 2782.8ms inference, 2.3ms postprocess per image at shape (1, 3, 448, 640)
+```
 
 
 
