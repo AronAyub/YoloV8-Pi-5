@@ -16,7 +16,7 @@ pip3 install opencv-contrib-python
 or 
 
 ```
-pip3 install opencv-python
+sudo apt install python3-opencv
 ```
 - Method 2, for python and c++ installations.
 
